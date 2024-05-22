@@ -1,0 +1,76 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h3 {
+    text-align: center;
+    margin-bottom: 1px; /* Уменьшаем отступ снизу у заголовка h2 */
+    color: #1E3382;
+}
+
+#application-form {
+    margin-top: 1px; /* Уменьшаем отступ сверху у формы заявки */
+}
+header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #f8f8f8;
+    padding: 10px;
+}
+#logo {
+    width: 200px;
+    height: auto;
+    margin: 0 20px 0 0;
+    
+}
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 60px;
+    border: 1px solid #ccc;
+}
+label {
+    display: block;
+    margin-bottom: 15px;
+    font-size: 14px; /* Уменьшаем размер шрифта для названий полей */
+}
+input {
+    width: 97%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+button {
+    background-color: #1E3382;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+}
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding: 8px;
+    background: url('arrow-down.png') no-repeat right;
+    background-size: 20px;
+    width: 100%; /* Растягиваем выпадающее окно на всю доступную ширину */
+}
+#sidebar-text {
+    font-size: 15px; /* Уменьшаем размер шрифта */
+    text-align: center; /* Выравниваем текст по центру */
+    margin-left: 220px; /* Отступ слева от логотипа */
+}
+
+#company-name, #sidebar-text {
+    align-items: center;
+    display: flex;
+}
+#website-link {
+    font-size: 16px; /* Устанавливаем размер шрифта ссылки */
+    display: block; /* Размещаем ссылку на отдельной строке */
+    text-align: center; /* Выравниваем текст по центру */
+    margin-top: 20px; /* Добавляем отступ сверху */
+    color: #1E3382; /* Изменяем цвет текста ссылки на синий */
+}
