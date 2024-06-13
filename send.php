@@ -48,3 +48,4 @@ if (mail("dariya.5416@gmail.com",
 else {
 echo('Есть ошибки! Проверьте данные...');
 }
+?php>
