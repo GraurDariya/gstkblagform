@@ -11,6 +11,7 @@
   $to="dariya.5416@gmail.com";
   $date=date("d.m.Y");
   $time=date("h:i");
+  $from=$email;
   $subject="Заявка с сайта";
 
   $msg="
