@@ -3,8 +3,6 @@
 <head>
 <meta charset="UTF-8">
 <title>Форма заявки</title>
-    <script scr="js/jquery.validate.min.js"></script>
-    <script scr="js/script.js"></script>
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -14,7 +12,7 @@
         </span>
     </header>
 <h3>Заявка на предоставление услуги</h3><br><br>
-<form action="send.php" method="post">
+<form  id="application-form" action="send.php" method="post">
     <label for="select-option-1">Укажите лицо:</label>
     <select id="select-option-1" name="select-option" required>
         <option value="option1">Физическое</option>
