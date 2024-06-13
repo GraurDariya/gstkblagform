@@ -21,6 +21,6 @@
   Телефон:$phone /n
   Раздел услуг:$select-option-2 /n
   Подробнее об услуге:$fullusluga";
-  mail($to, $subject, $msg, "From: $From");
+  mail($to, $subject, $msg, "From: $from");
 
 ?>
